@@ -71,7 +71,23 @@ nav {
   color: #12867e;
 }
 
+.nav-list ul li a.active {
+  color: #12867e;
+}
+.nav-list ul li a.active::after {
+  width: 100%;
+  background-color: #12867e;
+}
+
 .nav-list ul li i {
   color: #1e90ff;
   font-size: 0.8rem;
+}
+
+/** for tablets */
+@media (max-width: 1024px) and (min-width: 768px) {
+}
+
+/** Small mobile devices (0px to 479px) */
+@media (max-width: 479px) {
 }
